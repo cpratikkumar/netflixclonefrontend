@@ -1,0 +1,52 @@
+.header-body {
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 100px;
+}
+.header-body > img {
+  width: 200px;
+}
+.header-body > .login-button {
+  width: 80px;
+  height: 35px;
+  background-color: rgb(231, 10, 10);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+}
+.header-body > .login-button:hover {
+  width: 80px;
+  height: 35px;
+  background-color: rgb(166, 5, 5);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+}
+.header-body > .signup-button {
+  width: 80px;
+  height: 35px;
+  background-color: rgb(231, 10, 10);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+}
+.header-body > .signup-button:hover {
+  width: 80px;
+  height: 35px;
+  background-color: rgb(166, 5, 5);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+}

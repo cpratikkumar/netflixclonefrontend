@@ -1,0 +1,271 @@
+.dark {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 0px 30px;
+  z-index: 10;
+  position: fixed;
+}
+.transparent {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 0px 30px;
+  z-index: 10;
+  position: fixed;
+}
+nav > .left-navbar-div > img {
+  width: 200px;
+}
+.left-navbar-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-navbar-div > .navigation-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+.navigation-link > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.right-navbar-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-navbar-div > img {
+  width: 30px;
+}
+.right-navbar-div > span {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.right-navbar-div > span > .search-input-show {
+  height: 30px;
+  width: 200px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid grey;
+  padding-left: 40px;
+  animation: slider2 0.3s ease-in-out forwards;
+  outline: none;
+}
+.right-navbar-div > span > img {
+  width: 25px;
+  position: absolute;
+  right: 0px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.right-navbar-div > span > .movingSearch {
+  width: 25px;
+  position: absolute;
+  right: 0px;
+  margin-right: 5px;
+  cursor: pointer;
+  animation: slider 0.6s ease-in-out forwards;
+}
+@keyframes slider {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: 80%;
+  }
+}
+@keyframes slider2 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    right: 200px;
+  }
+}
+.right-navbar-div > span > .search-input {
+  display: none;
+}
+.right-navbar-div > span > .search-input-show {
+  display: block;
+}
+.power-icon {
+  cursor: pointer;
+}
+@media screen and (max-width: 865px) {
+  nav > .left-navbar-div > img {
+    width: 130px;
+  }
+  .left-navbar-div > .navigation-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+  }
+  .navigation-link > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .right-navbar-div > img {
+    width: 15px;
+  }
+
+  .right-navbar-div > span > .search-input-show {
+    height: 15px;
+    width: 150px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid grey;
+    padding-left: 20px;
+    animation: slider2 0.3s ease-in-out forwards;
+    outline: none;
+  }
+  .right-navbar-div > span > img {
+    width: 15px;
+    position: absolute;
+    right: 0px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  .right-navbar-div > span > .movingSearch {
+    width: 13px;
+    position: absolute;
+    right: 0px;
+    margin-right: 5px;
+    cursor: pointer;
+    animation: slider 0.6s ease-in-out forwards;
+  }
+  @keyframes slider {
+    0% {
+      right: 0px;
+    }
+    100% {
+      right: 85%;
+    }
+  }
+  @keyframes slider2 {
+    0% {
+      width: 0px;
+    }
+    100% {
+      right: 200px;
+    }
+  }
+  .right-navbar-div > span > .search-input {
+    display: none;
+  }
+  .right-navbar-div > span > .search-input-show {
+    display: block;
+  }
+  .power-icon {
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .dark {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0px 10px;
+    z-index: 10;
+    position: fixed;
+  }
+  .transparent {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 0px 10px;
+    z-index: 10;
+    position: fixed;
+  }
+  nav > .left-navbar-div > img {
+    width: 100px;
+  }
+  .left-navbar-div > .navigation-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+  }
+  .navigation-link > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  .right-navbar-div > img {
+    width: 15px;
+  }
+
+  .right-navbar-div > span > .search-input-show {
+    height: 15px;
+    width: 150px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid grey;
+    padding-left: 20px;
+    animation: slider2 0.3s ease-in-out forwards;
+    outline: none;
+  }
+  .right-navbar-div > span > img {
+    width: 15px;
+    position: absolute;
+    right: 0px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  .right-navbar-div > span > .movingSearch {
+    width: 13px;
+    position: absolute;
+    right: 0px;
+    margin-right: 5px;
+    cursor: pointer;
+    animation: slider 0.6s ease-in-out forwards;
+  }
+  @keyframes slider {
+    0% {
+      right: 0px;
+    }
+    100% {
+      right: 85%;
+    }
+  }
+  @keyframes slider2 {
+    0% {
+      width: 0px;
+    }
+    100% {
+      right: 200px;
+    }
+  }
+  .right-navbar-div > span > .search-input {
+    display: none;
+  }
+  .right-navbar-div > span > .search-input-show {
+    display: block;
+  }
+  .power-icon {
+    cursor: pointer;
+  }
+}
